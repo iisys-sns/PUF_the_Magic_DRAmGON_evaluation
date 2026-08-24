@@ -14,3 +14,27 @@ For PUF evaluation, the `<room>` directories have to be moved into the `PUF/inpu
 ## Running DRAmGON evaluation
 `DRAmGON` can be evaluated from the root directory by calling `python DRAmGON/evaluate.py <basedir> <generation-percentage> <keysize>`
 For example, using `python evaluation/evaluate.py . 0.2 256` to search for rooms in the current directory, use 20% of the sweeping runs for generation, and encode random 256-bit keys.
+
+## Citing our Work
+
+To cite the DRAmGON **paper**, please use the following BibTeX entry:
+
+```
+@inproceedings{Geloczi2026PUF,
+  title     = {{PUF the Magic DRAmGON: Persistent Storage in Volatile Memory using Rowhammer PUF}},
+  author    = {Gelóczi, Emiliia and Heckel, Martin and Katzenbeisser, Stefan and Adamsky, Florian},
+  booktitle = {ESORICS},
+  date      = {2026},
+}
+```
+
+To cite the DRAmGON **software**, please use the following BibTeX entry:
+
+```
+@misc{Geloczi2026PUFSoftware,
+  title  = {{PUF the Magic DRAmGON: Persistent Storage in Volatile Memory using Rowhammer PUF}},
+  author = {Gelóczi, Emiliia and Heckel, Martin and Katzenbeisser, Stefan and Adamsky, Florian},
+  date   = {2026},
+  url    = {https://github.com/iisys-sns/PUF_the_Magic_DRAmGON_evaluation}
+}
+```
